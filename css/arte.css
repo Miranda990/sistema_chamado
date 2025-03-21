@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*esses 3 fazem com que não tenha nenhuma borda*/
+
+}
+
+body{
+    background-color: #192E30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    
+    /*para linkar uma imagem ou pasta que não está na pasta do css, voce coloca (../) como se fosse voltar pastas no cmd*/
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /*o elemento flex-direction alinha os elementos em coluna*/
+    gap: 10px;
+}
