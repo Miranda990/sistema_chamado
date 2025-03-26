@@ -22,4 +22,51 @@ form{
     flex-direction: column;
     /*o elemento flex-direction alinha os elementos em coluna*/
     gap: 10px;
+    width: 828px;
+    height: 793px;
+    background-color: #C54345;
+    padding: 30px;
+    
+    /*padding é o espaçamento interno*/
+
+
+    
+    /*Para colocar Imagem no Fundo:
+    background-image: url("aqui vai a imagem baixada, ja estando na maquina");
+    background-repeat: no-repeat;
+    background-size: contain;
+    */
+}
+
+
+.inter-uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 655;
+  font-style: normal;
+}
+
+label{
+    font-family: "Inter";
+    font-size: 655;
+    width: 3920;
+    height: 3376;
+    color: white;
+}
+
+input{
+    width: 100%;
+    height: 60px;
+    background-color: #D9D9D9;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 20px;
+    
+}
+
+button {
+    background-color: #D9D9D9;
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
 }
