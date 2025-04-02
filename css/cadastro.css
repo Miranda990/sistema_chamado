@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*esses 3 fazem com que não tenha nenhuma borda*/
+
+}
+
+img{
+    height: 291px;
+    width: 291px;
+}
+
+/* o display-flex arruma os abjetos um do lado do outro*/
+.container{
+    display: flex;
+    margin-left: 30%;
+    gap: 50px;
+    align-items: center;
+    height: 100vh;
+}
+
+/*o flex-direction: column faz com que os objetos fiquem um abaixo do outro*/
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(197, 67, 69, 1);
+    padding: 20px;
+    border-radius: 30px;
+    gap: 5px;
+}
+
+label{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+button{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 15px;
+    width: 117;
+
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
