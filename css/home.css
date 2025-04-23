@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*São as 3 bordas da página*/
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+h1, h2, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

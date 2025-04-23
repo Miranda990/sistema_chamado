@@ -6,6 +6,13 @@
 
 }
 
+.inter-uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 655;
+    font-style: normal;
+  }
+
 img{
     height: 291px;
     width: 291px;
@@ -20,19 +27,26 @@ img{
     height: 100vh;
 }
 
-/*o flex-direction: column faz com que os objetos fiquem um abaixo do outro*/
+body{
+    background-color: #192E30;
+}
+
+
 form{
     display: flex;
     flex-direction: column;
+    /*o flex-direction: column faz com que os objetos fiquem um abaixo do outro*/
     background-color: rgba(197, 67, 69, 1);
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 20px;
     gap: 5px;
 }
 
 label{
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
+    font-size: 655;
     font-size: 18px;
+    color: white;
 }
 
 input{
