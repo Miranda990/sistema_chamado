@@ -5,13 +5,13 @@
     /*São as 3 bordas da página*/
 }
 
-body{
+
+.body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
     background-color: #192E30;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
 }
 
@@ -46,11 +46,38 @@ h1, h2, p {
     font-family: "Alumni Sans Inline One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
   .alumni-sans-inline-one-regular-italic {
     font-family: "Alumni Sans Inline One", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 5vh;
+    
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    background-color:gray;
+}
 
