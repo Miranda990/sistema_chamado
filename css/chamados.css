@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa-solid{
+    font-size: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#homee {
+    display: flex;
+    flex-direction: column;
+}
