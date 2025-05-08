@@ -6,14 +6,70 @@
 
 .fa-solid{
     font-size: 40px;
+    padding-left: 10px;
+
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
+    background-color: #C54345;
 }
 
 #homee {
     display: flex;
     flex-direction: column;
 }
+
+.nav-link-active{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+
+.bg-body-tertiary{
+    background-color: #C54345 !important;
+ }
+
+ 
+.inter-uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 655;
+    font-style: normal;
+}
+
+a{
+    font-family: "Alumni Sans Inline One", sans-serif;
+}
+
+.alumni-sans-inline-one-regular {
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  .alumni-sans-inline-one-regular-italic {
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fa-house{
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.fa-phone{
+    padding-left: 0px;
+}
+
+.fa-right-from-bracket{
+    padding-left: 0%;
+}
+
+.nav-link{
+    font-size: 30px;
+}
+
