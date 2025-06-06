@@ -1,29 +1,33 @@
 <?php
-// receber os dados da tela de login
+// RECEBER OS DADOS DA TELA DE LOGIN
 $email = $_POST ['email'];
 $senha = $_POST ['senha'];
 
-// incluindo o arquivo de conexão
+// INCLUINDO O ARQUIVO DE CONEXÃO 
 include 'conexao.php';
 
-// intrução de selct para capturar usuario digitado na tela de login
+// INSTRUÇÃO DO SQL PARA CAPTURAR USUARIO DIGITADO NA TELA DE LOGIN
 $select = "SELECT * FROM tb_user WHERE email = '$email'";
 
-// query executa o select dentro do banco
+// FUNÇÃO QUERY EXECUTA O SELECT DENTRO DO BANCO
 $query = $conexao->query($select);
 
-// armazena a 1° linha do bd dentro da variavel resultado
-$resultado = $query->fetch_assoc();
+// ARMAZENA A 1ª LINHA DO BD DENTRO DA VARIAVEL RESULTADO 
+$resultado = $query->fetch_assoc(); 
 
 // 
 $email_banco = $resultado ['email'];
 $senha_banco = $resultado ['senha'];
 
-// compara as informações do index com o banco 
+echo $email . " ". $senha;
+echo $senha_banco . " ". $email_banco;
+
+// COMPARA INFORMAÇÕES DO INDEX COM O BANCO
 if ($email == $email_banco && $senha == $senha_banco) {
     header('location: ../home.html');
 }else {
-    echo "<script>alert('Usuário ou Senha incorreta!'); history.back() </script>";
+    echo "<script>alert('Usuário ou Senha incorreto'); history.back() </script>";
+    
 }
 
 ?>

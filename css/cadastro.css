@@ -90,3 +90,43 @@ a{
     font-size: 30px;
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 5vh;
+    
+}
+
+li{
+    float: left;
+    font-family: "Alumni Sans Inline One", sans-serif;
+    font-size: 30px;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Alumni Sans Inline One", sans-serif;;
+}
+
+li a:hover{
+    font-family: "Alumni Sans Inline One", sans-serif;;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: #C54345;
+}
+
+.linha1{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: auto;
+}
