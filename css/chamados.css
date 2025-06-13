@@ -7,6 +7,7 @@
 body{
     background-color: #192E30;
 }
+
 .fa-solid{
     font-size: 40px;
     padding-left: 10px;
@@ -31,11 +32,7 @@ body{
 }
 
 
-.bg-body-tertiary{
-    background-color: #C54345 !important;
- }
 
- 
 .inter-uniquifier> {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -84,8 +81,6 @@ form{
     color: white;
     font-size: 60px;
 }
-
-
 
 label{
     font-family: "Inter";
@@ -167,11 +162,28 @@ li a:hover{
 .menu{
     display: flex;
     list-style: none;
+    justify-content: space-between;
     background-color: #C54345;
+
+}
+.linha1{
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: auto;
+}
+
+.menu_direita{
+    display: flex;
+    flex-direction: row;
 }
 
 .linha1{
     justify-content: flex-start;
     align-items: flex-start;
     margin-right: auto;
+}
+
+img{
+    height: 20px;
+    width: 20x;
 }

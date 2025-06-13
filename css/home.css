@@ -93,29 +93,19 @@ li a:hover{
 .menu{
     display: flex;
     list-style: none;
+    justify-content: space-between;
     background-color: #C54345;
+
+}
+.menu_direita{
+    display: flex;
+    flex-direction: row;
 }
 
 .linha1{
     justify-content: flex-start;
     align-items: flex-start;
     margin-right: auto;
-}
-
-.n1{
-    
-}
-
-.n2{
-
-}
-
-.n3{
-
-}
-
-.n4{
-
 }
 
 img{
